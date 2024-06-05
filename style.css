@@ -1,0 +1,258 @@
+/* FULL BODY */
+body {
+    background-color: #f3e6fa;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* MAIN */
+main {
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 45% 2%;
+    padding: 5%;
+}
+
+@media only screen and (min-width: 425px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 50%;
+        margin: 30% 2%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        width: 40%;
+        margin: 20% 2%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        width: 35%;
+        margin: 12% 2%;
+    }
+}
+
+
+/* BACKGROUND IMAGE */
+.bg_img {
+    background-image: url(./assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    height: 50%;
+    width: -webkit-fill-available;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 425px) {
+    .bg_img {
+        background-image: url(./assets/images/background-pattern-desktop.svg);
+    }
+}
+
+
+/* FIGURE SECTION */
+figure img, figure h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -9%;
+}
+
+figure h1 {
+    color: #301035;
+}
+
+figure img {
+    width: 15%;
+    margin-right: 10%;
+}
+
+/* MAIN SECTION */
+section {
+    width: -webkit-fill-available;
+    font-size: small;
+}
+
+.accordion-header {
+    display: flex;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #2d152f;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 66%;
+}
+
+span.icon {
+    position: absolute;
+    right: 10%;
+}
+
+.accordion-content {
+    display: none;
+    color: #a592a8;
+}
+
+.accordion-content.active {
+    display: block;
+    /* padding: 8% 0; */
+    line-height: 1.5;
+    margin-bottom: 8%;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+@media only screen and (min-width: 425px) {
+    figure {
+        margin-top: -5%;
+        margin-left: 12%;
+    }
+    .accordion-header {
+        margin-top: 0%;
+        width: 90%;
+    }
+
+    span.icon {
+        right: 17%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    figure {
+        margin-top: -8%;
+        margin-left: 10%;
+    }
+
+    figure img {
+        width: 10%;
+        margin-right: 5%;
+    }
+
+    section {
+        font-size: medium;
+    }
+
+    span.icon {
+        right: 25%;
+    }
+
+    .accordion-item {
+        margin-top: 5%;
+    }
+
+    .accordion-content.active {
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    figure h1 {
+        color: #301035;
+        font-size: xx-large;
+    }
+
+    section {
+        font-size: large;
+    }
+
+    .accordion {
+        margin-left: -5%;
+    }
+
+    .accordion-item {
+        margin-top: 6%;
+    }
+
+    .accordion-header {
+        width: 100%;
+    }
+
+    span.icon {
+        right: 28%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    figure {
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+
+    figure h1 {
+        font-size: xxx-large;
+    }
+
+    section {
+        font-size: large;
+    }
+
+    span.icon {
+        right: 30%;
+    }
+}
+
+
+/* FOOTER BY MENTOR */
+.attribution {
+    font-size: small;
+    color: #2d152f;
+    text-align: center;
+    margin: 0% 11%;
+}
+
+.attribution a {
+    color: #993ac5;
+    text-decoration: none;
+}
+
+.attribution a:visited {
+    color: #c398d0;
+}
+
+@media only screen and (min-width: 768px) {
+    .attribution {
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .attribution {
+        font-size: larger;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .attribution {
+        font-size: x-large;
+    }
+}
+
+
