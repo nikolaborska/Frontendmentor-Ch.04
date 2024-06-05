@@ -6,13 +6,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Screenshot
 
-![](./screencapture-127-0-0-1-5500-faq-accordion-main-index-html-2024-06-05-19_51_48)
-![](./screencapture-127-0-0-1-5500-faq-accordion-main-index-html-2024-06-05-19_52_04)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![](./screencapture-127-0-0-1-5500-faq-accordion-main-index-html-2024-06-05-19_51_48.png)
+![](./screencapture-127-0-0-1-5500-faq-accordion-main-index-html-2024-06-05-19_52_04.png)
 
 ## My process
 
